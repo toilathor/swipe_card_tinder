@@ -69,8 +69,8 @@ class _SwipeCardsViewState extends State<SwipeCardsView> {
         var maxWidth = constraints.maxWidth;
 
         return Stack(
-          children: widgetList =
-              buildCardList(maxWidth, maxHeight, screenWidth, screenHeight, reloadUI),
+          children: widgetList = buildCardList(
+              maxWidth, maxHeight, screenWidth, screenHeight, reloadUI),
         );
       },
     );
@@ -88,15 +88,14 @@ class _SwipeCardsViewState extends State<SwipeCardsView> {
         previousProfile: widgetList.length >= 1 ? widgetList[i - 1] : null,
         screenHeight: screenHeight,
         screenWidth: screenWidth,
+        reloadUI: reloadUI,
       ));
     }
     return widgetList;
   }
 
   reloadUI() {
-    setState(() {
-
-    });
+    setState(() {});
   }
 }
 
@@ -110,7 +109,6 @@ class ProfileCard extends StatefulWidget {
   var maxHeight;
   var maxWidth;
   _ProfileCardState? state;
-
   final reloadUI;
 
   ProfileCard(
@@ -131,13 +129,13 @@ class ProfileCard extends StatefulWidget {
   }
 }
 
-var ratioX = 0.0;
 bool isPreviousNowOnForeground = false;
 
 class _ProfileCardState extends State<ProfileCard> {
   double posX = 0, posY = 0;
   Direction dragDirection = Direction.NONE;
   double angleDegree = 0.0;
+  var ratioX = 0.0;
   var ratioY = 0.0;
   double scale = 0.97;
   bool isMoving = false;
@@ -172,8 +170,8 @@ class _ProfileCardState extends State<ProfileCard> {
             ..translate(posX, posY, 0)
             ..rotateDegrees(angleDegree, origin: centerOffset)
             ..scaleWithOrigin(
-                (widget.i == userList.length - 1 ||
-                        widget.i == userList.length - 1 &&
+                widget.i == userList.length - 1 ||
+                        (widget.i == userList.length - 2 &&
                             isPreviousNowOnForeground)
                     ? 1
                     : (95 + (5 * ratioX.abs().clamp(0.0, 1.0))) / 100,
@@ -198,9 +196,7 @@ class _ProfileCardState extends State<ProfileCard> {
   }
 
   void refresh() {
-    setState(() {
-
-    });
+    setState(() {});
   }
 
   void _onPanStart(DragStartDetails details) {
@@ -232,17 +228,18 @@ class _ProfileCardState extends State<ProfileCard> {
         isPreviousNowOnForeground = true;
         isMoving = false;
       });
+      widget.previousProfile?.refresh();
+      Future.delayed(Duration(milliseconds: 200), () {
+        userList.removeAt(userList.length - 1);
+        userList.insert(
+            0,
+            User(
+                image: NetworkImage(
+                    "https://picsum.photos/2000/3000?random=${Random().nextInt(10000)}")));
+        resetValues();
+        this.widget.reloadUI();
+      });
     }
-
-    widget.previousProfile?.refresh();
-    
-    Future.delayed(Duration(milliseconds: 100), (){
-      userList.removeAt(userList.length-1);
-      userList.insert(0, User(image: NetworkImage("https://picsum.photos/2000/3000?random=${Random().nextInt(10000)}")));
-
-      resetValues();
-      this.widget.reloadUI();
-    });
   }
 
   void _onPanCancel() {
@@ -274,9 +271,9 @@ class _ProfileCardState extends State<ProfileCard> {
     posY = 0;
     isMoving = false;
     ratioX = 0;
+    ratioY = 0;
     dragDirection = Direction.NONE;
     oldPositionForDirection = Offset.zero;
-    ratioY = 0;
     angleDegree = 0.0;
   }
 
