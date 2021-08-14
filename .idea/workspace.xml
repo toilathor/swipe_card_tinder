@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7de9921-afd0-4d52-ae79-62a3a9206a8a" name="Default Changelist" comment="toilathor" />
+    <list default="true" id="f7de9921-afd0-4d52-ae79-62a3a9206a8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dating_swipe_cade/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dating_swipe_cade/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,8 +72,32 @@
       <option name="project" value="LOCAL" />
       <updated>1628909039283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="toilathor">
+      <created>1628909316703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628909316703</updated>
+    </task>
+    <task id="LOCAL-00003" summary="toilathor">
+      <created>1628909354169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628909354169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -83,33 +127,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1628850693320" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1628909205265">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1628909353583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628909205265" />
-    <state width="745" height="210" key="GridCell.Tab.0.bottom" timestamp="1628909225594">
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628909353583" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1628909419658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628909225594" />
-    <state width="745" height="210" key="GridCell.Tab.0.center" timestamp="1628909225594">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1628909419658" />
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1628909382357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628909225594" />
-    <state width="745" height="210" key="GridCell.Tab.0.left" timestamp="1628909225594">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628909382357" />
+    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1628909382356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628909225594" />
-    <state width="745" height="210" key="GridCell.Tab.0.right" timestamp="1628909225594">
+    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628909382356" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1628909382356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628909225594" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628909382356" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1628909382357">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628909382357" />
     <state x="111" y="57" key="SettingsEditor" timestamp="1628849894441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="111" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628849894441" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1628909043709">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1628909359885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628909043709" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628909359885" />
   </component>
 </project>
