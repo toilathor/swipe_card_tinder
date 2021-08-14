@@ -304,5 +304,4 @@ class _ProfileCardState extends State<ProfileCard> {
     oldPositionForDirection = localPosition;
   }
 }
-
 enum Direction { NONE, LEFT, RIGHT, UP, DOWN }
