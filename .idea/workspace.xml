@@ -25,6 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7de9921-afd0-4d52-ae79-62a3a9206a8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dating_swipe_cade/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dating_swipe_cade/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +36,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[b97cbea7]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1wfVsEBdy7YtnSebbVnPkYWMZh0" />
   <component name="ProjectViewState">
@@ -49,7 +53,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_custom_swipable" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -112,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628911071153</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="toilathor">
+      <created>1628911135234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628911135234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -158,46 +169,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1628851679642" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1628932183272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1628932183272" />
     <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1628850752417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1628850752417" />
+    <state x="449" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1628911549096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1628911549096" />
     <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1628850693320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1628850693320" />
-    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2" timestamp="1628911070554">
+    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2" timestamp="1628911134610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628911070554" />
+    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628911134610" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1628910846158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1628910846158" />
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1628909496894">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1629108213390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628909496894" />
-    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1628909496894">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629108213390" />
+    <state width="1491" height="208" key="GridCell.Tab.0.bottom" timestamp="1628938665553">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628909496894" />
-    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1628909496894">
+    <state width="1491" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628938665553" />
+    <state width="1491" height="208" key="GridCell.Tab.0.center" timestamp="1628938665553">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628909496894" />
-    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1628909496894">
+    <state width="1491" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628938665553" />
+    <state width="1491" height="208" key="GridCell.Tab.0.left" timestamp="1628938665553">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628909496894" />
+    <state width="1491" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628938665553" />
+    <state width="1491" height="208" key="GridCell.Tab.0.right" timestamp="1628938665553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628938665553" />
     <state x="111" y="57" key="SettingsEditor" timestamp="1628849894441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="111" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628849894441" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1628911076712">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1628911139477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628911076712" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628911139477" />
     <state x="540" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1628910572087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
