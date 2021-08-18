@@ -20,6 +20,9 @@
       <excludeFolder url="file://$MODULE_DIR$/dating_swipe_cade/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/dating_swipe_cade/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/dating_swipe_cade/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dating_test/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/dating_test/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dating_test/build" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
