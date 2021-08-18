@@ -24,10 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7de9921-afd0-4d52-ae79-62a3a9206a8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dating_swipe_cade/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dating_swipe_cade/lib/main.dart" afterDir="false" />
-    </list>
+    <list default="true" id="f7de9921-afd0-4d52-ae79-62a3a9206a8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,13 +50,13 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_custom_swipable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/dating_swipe_cade/lib/main.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/dating_test/lib/main.dart" />
       <method v="2" />
     </configuration>
   </component>
@@ -123,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628911135234</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="toilathor 17.23 18/8/2021">
+      <created>1629282230731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629282230734</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -158,25 +162,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="toilathor1" />
     <MESSAGE value="toilathor" />
-    <option name="LAST_COMMIT_MESSAGE" value="toilathor" />
+    <MESSAGE value="toilathor 17.23 18/8/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="toilathor 17.23 18/8/2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="275" key="#Notifications" timestamp="1628910662868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1628910662868" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628851679642">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629282481121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1628851679642" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1629282481121" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1628932183272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1628932183272" />
-    <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1628850752417">
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1629282478237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1628850752417" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1629282478237" />
     <state x="449" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1628911549096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -185,10 +190,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1628850693320" />
-    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2" timestamp="1628911134610">
+    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2" timestamp="1629282229593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628911134610" />
+    <state x="395" y="0" width="695" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1629282229592" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1628910846158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,10 +222,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="111" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628849894441" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1628911139477">
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1629282233660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628911139477" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1629282233660" />
     <state x="540" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1628910572087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
