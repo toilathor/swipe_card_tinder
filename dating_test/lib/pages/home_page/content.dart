@@ -44,15 +44,12 @@ class _ContentState extends State<Content> {
             return allowedActions.contains(direction);
           },
           controller: _controller,
-          onSwipeCompleted: (index, direction) {
-
-          },
-          overlayBuilder:
-              (context, constraints, index, direction, swipeProgress) {
-            final opacity = min(swipeProgress, 1.0);
-            final isRight = direction == SwipeDirection.right;
-            final isLeft = direction == SwipeDirection.left;
-            final isUp = direction == SwipeDirection.up;
+          onSwipeCompleted: (index, direction) {},
+          overlayBuilder: (context, swipeProperty) {
+            final opacity = min(swipeProperty.swipeProgress, 1.0);
+            final isRight = swipeProperty.direction == SwipeDirection.right;
+            final isLeft = swipeProperty.direction == SwipeDirection.left;
+            final isUp = swipeProperty.direction == SwipeDirection.up;
             return Center(
               child: Stack(
                 children: [
@@ -72,17 +69,19 @@ class _ContentState extends State<Content> {
               ),
             );
           },
-          builder: (context, index, constraints) {
+          builder: (context, swipeProperty) {
             return Padding(
               padding: EdgeInsets.fromLTRB(40, 124, 40, 140),
               child: Center(
-                  child: DatingCard(
-                      user: User(
-                          name: 'toilathor',
-                          location: 10,
-                          age: 20,
-                          job: 'Information Techno',
-                          image: '${(index+1)}'))),
+                child: DatingCard(
+                  user: User(
+                      name: 'toilathor',
+                      location: 10,
+                      age: 20,
+                      job: 'Information Techno',
+                      image: '${(swipeProperty.index + 1)}'),
+                ),
+              ),
             );
           },
         ),
